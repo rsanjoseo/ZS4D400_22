@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS zcl_22_types IMPLEMENTATION.
+CLASS ZCL_22_TYPES IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.

@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS zcl_22_select_ejemplo IMPLEMENTATION.
+CLASS ZCL_22_SELECT_EJEMPLO IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.

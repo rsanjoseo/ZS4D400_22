@@ -1,4 +1,4 @@
-CLASS zcl_22_hello_world DEFINITION
+CLASS zcl_22_local_class DEFINITION
   PUBLIC
   FINAL
   CREATE PUBLIC .
@@ -10,14 +10,9 @@ CLASS zcl_22_hello_world DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-
-
-CLASS ZCL_22_HELLO_WORLD IMPLEMENTATION.
+CLASS ZCL_22_LOCAL_CLASS IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.
-
-  out->write( 'Hello World!' ).
-
   ENDMETHOD.
 ENDCLASS.

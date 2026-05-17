@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS zcl_22_tables_prueba IMPLEMENTATION.
+CLASS ZCL_22_TABLES_PRUEBA IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.
