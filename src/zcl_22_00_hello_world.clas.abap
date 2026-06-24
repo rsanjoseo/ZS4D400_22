@@ -10,14 +10,10 @@ CLASS zcl_22_00_hello_world DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-
-
 CLASS ZCL_22_00_HELLO_WORLD IMPLEMENTATION.
 
-
   METHOD if_oo_adt_classrun~main.
-
-  out->write( 'Hello World!' ).
-
+    out->write( 'Hello World!' ).
   ENDMETHOD.
+
 ENDCLASS.
