@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS ZCL_22_01_A_TYPES IMPLEMENTATION.
+CLASS zcl_22_01_a_types IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.
@@ -20,7 +20,7 @@ CLASS ZCL_22_01_A_TYPES IMPLEMENTATION.
 * Data Objects with Built-in Types
 **********************************************************************
 * comment/uncomment the following declarations and check the output
-DATA variable TYPE string.
+    DATA variable TYPE string.
 * DATA variable TYPE i.
 * DATA variable TYPE d.
 * DATA variable TYPE c LENGTH 10.
