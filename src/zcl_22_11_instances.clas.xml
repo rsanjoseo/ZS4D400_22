@@ -3,9 +3,9 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <VSEOCLASS>
-    <CLSNAME>ZCL_22_JOIN</CLSNAME>
+    <CLSNAME>ZCL_22_11_INSTANCES</CLSNAME>
     <LANGU>E</LANGU>
-    <DESCRIPT>Ejemplo de Join</DESCRIPT>
+    <DESCRIPT>Solution: Define a local class</DESCRIPT>
     <STATE>1</STATE>
     <CLSCCINCL>X</CLSCCINCL>
     <FIXPT>X</FIXPT>

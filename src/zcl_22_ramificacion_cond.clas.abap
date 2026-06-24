@@ -53,7 +53,7 @@ CLASS zcl_22_ramificacion_cond IMPLEMENTATION.
         TRY.
             result = number1 / number2.
           CATCH cx_sy_zerodivide.
-            out->write( 'Division by zero' ).
+            out->write( 'No se puede dividir por cero' ).
             RETURN.
         ENDTRY.
         result = number1 / number2.

@@ -3,9 +3,9 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <VSEOCLASS>
-    <CLSNAME>ZCL_22_JOIN</CLSNAME>
+    <CLSNAME>ZCL_22_08_SIMPLE_INTERNAL_TABL</CLSNAME>
     <LANGU>E</LANGU>
-    <DESCRIPT>Ejemplo de Join</DESCRIPT>
+    <DESCRIPT>Prueba de interacción de una tabla interna</DESCRIPT>
     <STATE>1</STATE>
     <CLSCCINCL>X</CLSCCINCL>
     <FIXPT>X</FIXPT>

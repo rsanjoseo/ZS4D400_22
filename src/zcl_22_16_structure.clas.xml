@@ -3,9 +3,9 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <VSEOCLASS>
-    <CLSNAME>ZCL_22_JOIN</CLSNAME>
+    <CLSNAME>ZCL_22_16_STRUCTURE</CLSNAME>
     <LANGU>E</LANGU>
-    <DESCRIPT>Ejemplo de Join</DESCRIPT>
+    <DESCRIPT>Solution: Read Data From a Database Table</DESCRIPT>
     <STATE>1</STATE>
     <CLSCCINCL>X</CLSCCINCL>
     <FIXPT>X</FIXPT>

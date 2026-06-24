@@ -1,0 +1,76 @@
+CLASS zcl_22_13_constructor DEFINITION
+  PUBLIC
+  FINAL
+  CREATE PUBLIC .
+
+  PUBLIC SECTION.
+
+    INTERFACES if_oo_adt_classrun .
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+ENDCLASS.
+
+
+
+CLASS zcl_22_13_constructor IMPLEMENTATION.
+
+
+  METHOD if_oo_adt_classrun~main.
+
+    DATA connection TYPE REF TO lcl_connection.
+    DATA connections TYPE TABLE OF REF TO lcl_connection.
+
+* First Instance
+**********************************************************************
+    TRY.
+        APPEND NEW #(
+            i_carrier_id = 'DL'
+            i_connection_id = '0064'
+        ) TO connections.
+      CATCH cx_abap_invalid_value.
+        out->write( 'Method call failed!' ).
+    ENDTRY.
+
+* Second Instance
+**********************************************************************
+    TRY.
+        APPEND NEW #(
+            i_carrier_id = 'AA'
+            i_connection_id = '0017'
+        ) TO connections.
+      CATCH cx_abap_invalid_value.
+        out->write( 'Method call failed!' ).
+    ENDTRY.
+
+* Third Instance
+**********************************************************************
+    TRY.
+        APPEND NEW #(
+            i_carrier_id = 'SQ'
+            i_connection_id = '0001'
+        ) TO connections.
+      CATCH cx_abap_invalid_value.
+        out->write( 'Method call failed!' ).
+    ENDTRY.
+
+* Fourth Instance
+**********************************************************************
+    TRY.
+        APPEND NEW #(
+            i_carrier_id = 'LH'
+            i_connection_id = '0400'
+        ) TO connections.
+      CATCH cx_abap_invalid_value.
+        out->write( 'Method call failed!' ).
+    ENDTRY.
+
+
+* Output
+**********************************************************************
+    LOOP AT connections INTO connection.
+      out->write( connection->get_output( ) ).
+    ENDLOOP.
+    out->write( |Número total de conexiones: { lcl_connection=>get_counter( ) }| ).
+
+  ENDMETHOD.
+ENDCLASS.
